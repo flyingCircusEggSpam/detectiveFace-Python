@@ -3,9 +3,7 @@
 
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-    
-    
+```    
 *  下記のコマンドを入力し、最新の状態であるか確かめる。
 ```
 brew doctor
