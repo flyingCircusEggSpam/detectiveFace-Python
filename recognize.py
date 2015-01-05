@@ -48,4 +48,7 @@ if __name__ == '__main__':
 	makeFolder(folderOutPutNoFaceImage_path)
 
 	for file in files:
-		detectiveFace(file)
+		root, ext = os.path.splitext(file)
+		if ext == '.png' or ext == '.png': 
+			detectiveFace(file)
+			
