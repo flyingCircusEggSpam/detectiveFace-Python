@@ -39,6 +39,12 @@ openCVはnumpyに依存しているため、numpyを先にインストールす�
 pip install numpy
 pip install openCV
 ```
-　
-####  終了
-  
+
+実行
+-------------------------------
+1. 分別したい画像をsrcImageフォルダに格納する
+2. recognize.pyを実行する。実行方法は下記に示す
+3. srcImageフォルダにある各画像を判別し、顔の映っている画像はfaceImageフォルダに、顔の映っていない画像はnoFaceImageフォルダにそれぞれ格納される
+```
+python recognize.py 
+```
